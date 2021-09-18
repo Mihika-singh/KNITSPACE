@@ -1,0 +1,168 @@
+body{
+    font-family: 'Montserrat ', sans-serif; 
+}
+ 
+h1,h2{
+    font-family: 'Montserrat ', sans-serif;
+    
+    font-weight: bold;
+}
+  
+  
+ p{
+     color: grey;
+     text-align: center;
+ }
+ /* navbar styling */
+ #title{
+    background-color: #0d4402fb;
+    color: white;
+    text-align: left;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+ .big-head{
+    line-height: 1.5;
+    font-size: 3.5rem;
+ }
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.navbar{
+    padding : 0 0 4.5rem; 
+    
+    font-weight: bold;
+}
+.nav-item{
+    padding: 10px 18px;
+    
+}
+.nav-link{
+    font-family: 'Montserrat-Light ', sans-serif;
+    font-weight: 1.2rem;
+}
+.subject-button{
+    margin:5% 3% 5% 0%;
+     
+}
+.semester-button{
+    margin:5% 3% 5% 0%;
+}
+.getnotes-button{
+    margin:5% 3% 5% 0%;
+}
+.title-image{
+    width: 50%;
+    transform: rotate(15deg);
+    border-radius: 30px;
+    position: absolute;
+ right: 30%;
+}
+ 
+ /* testimonials section */
+#testimonials{
+color: white; 
+background-color:   #0f4e02fb;
+text-align: center;
+ 
+}
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.testimonial-image{
+border-radius: 100%;
+width: 15%;
+margin: 20px;
+ 
+}  
+#press{
+    background-color:  #0f4e02fb;
+    text-align: center;
+     padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin : 20px 20px 50px;
+     
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.car{
+    margin-top: 100px;
+}
+.emp{
+    font-size: 1.2rem;
+    color: rgb(219, 213, 213);
+}
+/* discussion section */
+#discuss{
+    padding: 7% 15%;
+    background-color: white;
+position: relative;
+ }
+.discuss-box{
+    text-align: center;
+    padding: 5%;
+}
+.icons{
+    padding: 1.2%;
+  color: grey;
+}
+/* adding responsivenees */
+@media (max-width:1027px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    
+     .nav-link{
+         text-align: right;
+     }
+    
+}
+/* registration section */
+#cta{
+    background-color: white;
+    text-align: center;
+    padding: 7% 35%;
+}
+ 
+.icon1{
+    padding: 3%;
+    
+}
+.regis{
+    color:  #0f4e02fb;
+    padding-bottom: 3%;
+    line-height: 1.2;
+}
+/* footer-section */
+#footer{
+    text-align: center;
+    padding: 1% 5%;
+    background-color: gainsboro;
+     
+}
+.foot{
+    color: rgb(85, 83, 83);
+    font-family: 'Montserrat-Light ', sans-serif;
+}
+.icon2{
+    margin:2%;
+}
